@@ -1,0 +1,108 @@
+body{
+  background-color: rgb(238, 236, 236);
+}
+.Trait {
+  background-color: transparent;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid rgb(250, 250, 250);
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  
+}
+.Trait:hover {
+  border-bottom: 2px solid rgb(95, 97, 228);
+  color: rgb(49, 52, 250);;
+  cursor: pointer;
+}
+.card.w-75.bg-primary {
+  height: 500px;
+}
+.card {
+  width: 100%;
+  border: none;
+}
+
+
+.live-lect > h4{
+font-weight: 300;
+}
+.bars{
+  background-color: rgb(49, 52, 250);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  visibility: hidden;
+}
+.bars:hover{
+  cursor: pointer;
+}
+.CardContainer {
+  width: 950px;
+  padding: 0px 20px 20px 20px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid rgb(241, 240, 240);
+  position: relative;
+  z-index: 1000;
+  top: 110px;
+}
+.navbar-container{
+  background-color: rgb(32, 32, 46);
+  height: 230px;
+  position: absolute;
+}
+.navbarContainer{
+  width: 58.5rem;
+  height: 4rem;
+  margin-top: 15px;
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid rgb(226, 226, 226);
+}
+.link{
+  text-decoration: none;
+  color: black;
+}
+.devanationLogo{
+  width: 100px;
+  height: 50px;
+  /* background-color: white; */
+}
+.devanationLogo img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.user{
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+}
+.user img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.programdetail{
+  z-index: 11111111111111111;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  /* background-color: aqua; */
+  padding-left: 0;
+  width: 58.5rem;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+.programdetail h5{
+  font-weight: 400;
+  font-size: 30px;
+}
